@@ -112,15 +112,19 @@ Finally, I enabled the rewrite module and restarted Apache to apply the change. 
 ***
 
 ### 🧰 Technology Stack
-OS: Ubuntu 22.04 LTS (Server/VM)
+#### ✅OS: Ubuntu 22.04 LTS (Server/VM)
 
-Web Server: Apache 2.4
+#### ✅Web Server: Apache 2.4
 
-Tools: apt, systemctl, ufw, bash, echo, tee
+#### ✅Tools: apt, systemctl, ufw, bash, echo, tee
 
-Access: Terminal with sudo privileges
+#### ✅Access: Terminal with sudo privileges
 
 ### 🎯 Goal Accomplished
-Successfully deployed a basic Apache web server, made it accessible over the network, replaced the default page with a custom one, and demonstrated the ability to manage modules and analyze logs.
+#### ✅ Successfully deployed a basic Apache web server
 
-Let me know if you’d like a similar lab for NGINX, MySQL, PHP, or WordPress next!
+#### ✅Made it accessible over the network
+
+#### ✅Replaced the default page with a custom one
+
+#### ✅Demonstrated the ability to manage modules and analyze logs
