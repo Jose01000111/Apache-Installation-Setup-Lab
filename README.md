@@ -11,10 +11,12 @@ In this lab, I’m setting up Apache on an Ubuntu system. The goal is to get Apa
 ### ✅ Step 1: Get Apache Installed
 I started by updating my system and installing Apache using apt. Once it was installed, I checked the service status to make sure it was running properly. Seeing "active (running)" confirmed that Apache was up and ready.
 
-#### sudo apt update 🗂️→ This command checks for any updates and refreshes the software list, so your system knows about the latest versions available.
+
 <p align="center">
 <img src="https://i.imgur.com/mLfrF5e.png" alt="osTicket logo"/>
 </p>
+
+#### sudo apt update 🗂️→ This command checks for any updates and refreshes the software list, so your system knows about the latest versions available.
 
 ***
 
