@@ -43,11 +43,16 @@ To let web traffic through, I opened the firewall for Apache using UFW. This all
 <img src="https://i.imgur.com/HmKVjj3.png" alt="osTicket logo"/>
 </p>
 
+#### sudo ufw allow 'Apache' 🚪→ This tells the firewall to allow web traffic through, letting people access your Apache web server over HTTP (the web).
+
+
 ***
 
 <p align="center">
 <img src="https://i.imgur.com/WABoBNs.png" alt="osTicket logo"/>
 </p>
+
+#### sudo ufw status 📜→ This shows the current firewall settings and confirms that Apache is allowed to receive traffic.
 
 ***
 
@@ -66,6 +71,8 @@ Next, I created a basic custom web page by overwriting the default with a simple
 <p align="center">
 <img src="https://i.imgur.com/itQWgfI.png" alt="osTicket logo"/>
 </p>
+
+#### echo "<h1>Hello from my Apache server!</h1>" | sudo tee /var/www/html/index.html ✨
 
 ***
 
