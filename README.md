@@ -1,6 +1,8 @@
 ### 🧪 Apache Installation & Setup Lab on Ubuntu
 
-https://imgur.com/oxR6rxc
+<p align="center">
+<img src="https://i.imgur.com/oxR6rxc.png" alt="osTicket logo"/>
+</p>
 
 ***
 
@@ -9,57 +11,79 @@ In this lab, I’m setting up Apache on an Ubuntu system. The goal is to get Apa
 #### ✅ Step 1: Get Apache Installed
 I started by updating my system and installing Apache using apt. Once it was installed, I checked the service status to make sure it was running properly. Seeing "active (running)" confirmed that Apache was up and ready.
 
-https://imgur.com/mLfrF5e
+<p align="center">
+<img src="https://i.imgur.com/mLfrF5e.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/WqKF7Wt
+<p align="center">
+<img src="https://i.imgur.com/WqKF7Wt.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/H885ayC
+<p align="center">
+<img src="https://i.imgur.com/H885ayC.png" alt="osTicket logo"/>
+</p>
 
 ***
 
 #### ✅ Step 2: Open the Firewall
 To let web traffic through, I opened the firewall for Apache using UFW. This allowed HTTP requests on port 80, which I verified by checking the firewall status right after.
 
-https://imgur.com/HmKVjj3
+<p align="center">
+<img src="https://i.imgur.com/HmKVjj3.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/WABoBNs
+<p align="center">
+<img src="https://i.imgur.com/WABoBNs.png" alt="osTicket logo"/>
+</p>
 
 ***
 
 #### ✅ Step 3: See the Default Page
 After confirming Apache was running and open to traffic, I went to http://localhost in my browser. The default Apache page popped up, showing that my web server was working correctly.
 
-https://imgur.com/tAqRpRW
+<p align="center">
+<img src="https://i.imgur.com/tAqRpRW.png" alt="osTicket logo"/>
+</p>
 
 ***
 
 #### ✅ Step 4: Add My Own Web Page
 Next, I created a basic custom web page by overwriting the default with a simple HTML message. When I refreshed the browser, my custom message appeared — a quick way to confirm I could serve my own content.
 
-https://imgur.com/itQWgfI
+<p align="center">
+<img src="https://i.imgur.com/itQWgfI.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/0JnJ3nG
+<p align="center">
+<img src="https://i.imgur.com/0JnJ3nG.png" alt="osTicket logo"/>
+</p>
 
 #### ✅ Step 5: Turn on a Module & Check Logs
 Finally, I enabled the rewrite module and restarted Apache to apply the change. Then I checked which modules were active and used the logs to see how Apache tracks access and errors — super helpful for future troubleshooting.
 
-https://imgur.com/5ZyXjp4
+<p align="center">
+<img src="https://i.imgur.com/5ZyXjp4.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/RZHIBYG
+<p align="center">
+<img src="https://i.imgur.com/RZHIBYG.png" alt="osTicket logo"/>
+</p>
 
 ***
 
-https://imgur.com/1U1MKjw
+<p align="center">
+<img src="https://i.imgur.com/1U1MKjw.png" alt="osTicket logo"/>
+</p>
 
 ***
 
