@@ -85,17 +85,27 @@ Finally, I enabled the rewrite module and restarted Apache to apply the change. 
 <img src="https://i.imgur.com/5ZyXjp4.png" alt="osTicket logo"/>
 </p>
 
+#### sudo a2enmod rewrite 🔧→ This enables the “rewrite” module in Apache, which is useful for creating clean and user-friendly URLs (like /about-us instead of /index.php?page=about).
+
+#### sudo systemctl restart apache2 🔄→ This restarts Apache, applying any changes you've made, like enabling new features or modules.
+
+#### apache2ctl -M 📋→ This lists all the active modules (like the rewrite module) that are currently enabled in Apache.
+
 ***
 
 <p align="center">
 <img src="https://i.imgur.com/RZHIBYG.png" alt="osTicket logo"/>
 </p>
 
+#### sudo tail /var/log/apache2/access.log 👀→ This shows recent access logs, so you can see who is visiting your site.
+
 ***
 
 <p align="center">
 <img src="https://i.imgur.com/1U1MKjw.png" alt="osTicket logo"/>
 </p>
+
+#### sudo tail /var/log/apache2/error.log ⚠️→ This shows error logs, which help you troubleshoot any problems Apache has encountered.
 
 ***
 
