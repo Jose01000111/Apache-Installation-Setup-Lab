@@ -24,6 +24,8 @@ I started by updating my system and installing Apache using apt. Once it was ins
 <img src="https://i.imgur.com/WqKF7Wt.png" alt="osTicket logo"/>
 </p>
 
+#### sudo apt install apache2 -y 📥→ This installs the Apache web server, and the -y automatically agrees to install everything without asking for confirmation.
+
 ***
 
 <p align="center">
