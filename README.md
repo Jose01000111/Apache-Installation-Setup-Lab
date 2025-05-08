@@ -29,7 +29,7 @@ I started by updating my system and installing Apache using apt. Once it was ins
 
 ***
 
-#### ✅ Step 2: Open the Firewall
+### ✅ Step 2: Open the Firewall
 To let web traffic through, I opened the firewall for Apache using UFW. This allowed HTTP requests on port 80, which I verified by checking the firewall status right after.
 
 <p align="center">
@@ -44,7 +44,7 @@ To let web traffic through, I opened the firewall for Apache using UFW. This all
 
 ***
 
-#### ✅ Step 3: See the Default Page
+### ✅ Step 3: See the Default Page
 After confirming Apache was running and open to traffic, I went to http://localhost in my browser. The default Apache page popped up, showing that my web server was working correctly.
 
 <p align="center">
@@ -53,7 +53,7 @@ After confirming Apache was running and open to traffic, I went to http://localh
 
 ***
 
-#### ✅ Step 4: Add My Own Web Page
+### ✅ Step 4: Add My Own Web Page
 Next, I created a basic custom web page by overwriting the default with a simple HTML message. When I refreshed the browser, my custom message appeared — a quick way to confirm I could serve my own content.
 
 <p align="center">
@@ -66,7 +66,7 @@ Next, I created a basic custom web page by overwriting the default with a simple
 <img src="https://i.imgur.com/0JnJ3nG.png" alt="osTicket logo"/>
 </p>
 
-#### ✅ Step 5: Turn on a Module & Check Logs
+### ✅ Step 5: Turn on a Module & Check Logs
 Finally, I enabled the rewrite module and restarted Apache to apply the change. Then I checked which modules were active and used the logs to see how Apache tracks access and errors — super helpful for future troubleshooting.
 
 <p align="center">
