@@ -32,6 +32,8 @@ I started by updating my system and installing Apache using apt. Once it was ins
 <img src="https://i.imgur.com/H885ayC.png" alt="osTicket logo"/>
 </p>
 
+#### sudo systemctl status apache2 ✅→ This shows the status of Apache to confirm that it’s running correctly. You should see "active (running)" if everything is working.
+
 ***
 
 ### ✅ Step 2: Open the Firewall
