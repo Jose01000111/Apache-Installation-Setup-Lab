@@ -72,8 +72,6 @@ Next, I created a basic custom web page by overwriting the default with a simple
 <img src="https://i.imgur.com/itQWgfI.png" alt="osTicket logo"/>
 </p>
 
-#### echo "<h1>Hello from my Apache server!</h1>" | sudo tee /var/www/html/index.html ✨
-
 ***
 
 <p align="center">
