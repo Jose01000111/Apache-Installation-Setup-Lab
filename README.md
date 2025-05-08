@@ -78,6 +78,8 @@ Next, I created a basic custom web page by overwriting the default with a simple
 <img src="https://i.imgur.com/0JnJ3nG.png" alt="osTicket logo"/>
 </p>
 
+***
+
 ### ✅ Step 5: Turn on a Module & Check Logs
 Finally, I enabled the rewrite module and restarted Apache to apply the change. Then I checked which modules were active and used the logs to see how Apache tracks access and errors — super helpful for future troubleshooting.
 
