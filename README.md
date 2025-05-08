@@ -6,7 +6,7 @@
 
 ***
 
-In this lab, I’m setting up Apache on an Ubuntu system. The goal is to get Apache running, configure it to serve web pages, and learn how to manage basic tasks like checking the status, opening the firewall, and customizing the web server with my own content. This is all about getting comfortable with how Apache works and picking up some troubleshooting skills that will come in handy for future web server setups and Linux work.
+#### In this lab, I’m setting up Apache on an Ubuntu system. The goal is to get Apache running, configure it to serve web pages, and learn how to manage basic tasks like checking the status, opening the firewall, and customizing the web server with my own content. This is all about getting comfortable with how Apache works and picking up some troubleshooting skills that will come in handy for future web server setups and Linux work.
 
 ### ✅ Step 1: Get Apache Installed
 I started by updating my system and installing Apache using apt. Once it was installed, I checked the service status to make sure it was running properly. Seeing "active (running)" confirmed that Apache was up and ready.
