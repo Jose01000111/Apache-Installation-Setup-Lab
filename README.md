@@ -16,7 +16,7 @@ I started by updating my system and installing Apache using apt. Once it was ins
 <img src="https://i.imgur.com/mLfrF5e.png" alt="osTicket logo"/>
 </p>
 
-#### sudo apt update 🗂️→ This command checks for any updates and refreshes the software list, so your system knows about the latest versions available.
+#### ⌨️sudo apt update 🗂️→ This command checks for any updates and refreshes the software list, so your system knows about the latest versions available.
 
 ***
 
@@ -24,7 +24,7 @@ I started by updating my system and installing Apache using apt. Once it was ins
 <img src="https://i.imgur.com/WqKF7Wt.png" alt="osTicket logo"/>
 </p>
 
-#### sudo apt install apache2 -y 📥→ This installs the Apache web server, and the -y automatically agrees to install everything without asking for confirmation.
+#### ⌨️sudo apt install apache2 -y 📥→ This installs the Apache web server, and the -y automatically agrees to install everything without asking for confirmation.
 
 ***
 
@@ -32,7 +32,7 @@ I started by updating my system and installing Apache using apt. Once it was ins
 <img src="https://i.imgur.com/H885ayC.png" alt="osTicket logo"/>
 </p>
 
-#### sudo systemctl status apache2 ✅→ This shows the status of Apache to confirm that it’s running correctly. You should see "active (running)" if everything is working.
+#### ⌨️sudo systemctl status apache2 ✅→ This shows the status of Apache to confirm that it’s running correctly. You should see "active (running)" if everything is working.
 
 ***
 
@@ -43,7 +43,7 @@ To let web traffic through, I opened the firewall for Apache using UFW. This all
 <img src="https://i.imgur.com/HmKVjj3.png" alt="osTicket logo"/>
 </p>
 
-#### sudo ufw allow 'Apache' 🚪→ This tells the firewall to allow web traffic through, letting people access your Apache web server over HTTP (the web).
+#### ⌨️sudo ufw allow 'Apache' 🚪→ This tells the firewall to allow web traffic through, letting people access your Apache web server over HTTP (the web).
 
 
 ***
@@ -52,7 +52,7 @@ To let web traffic through, I opened the firewall for Apache using UFW. This all
 <img src="https://i.imgur.com/WABoBNs.png" alt="osTicket logo"/>
 </p>
 
-#### sudo ufw status 📜→ This shows the current firewall settings and confirms that Apache is allowed to receive traffic.
+#### ⌨️sudo ufw status 📜→ This shows the current firewall settings and confirms that Apache is allowed to receive traffic.
 
 ***
 
@@ -85,11 +85,11 @@ Finally, I enabled the rewrite module and restarted Apache to apply the change. 
 <img src="https://i.imgur.com/5ZyXjp4.png" alt="osTicket logo"/>
 </p>
 
-#### sudo a2enmod rewrite 🔧→ This enables the “rewrite” module in Apache, which is useful for creating clean and user-friendly URLs (like /about-us instead of /index.php?page=about).
+#### ⌨️sudo a2enmod rewrite 🔧→ This enables the “rewrite” module in Apache, which is useful for creating clean and user-friendly URLs (like /about-us instead of /index.php?page=about).
 
-#### sudo systemctl restart apache2 🔄→ This restarts Apache, applying any changes you've made, like enabling new features or modules.
+#### ⌨️sudo systemctl restart apache2 🔄→ This restarts Apache, applying any changes you've made, like enabling new features or modules.
 
-#### apache2ctl -M 📋→ This lists all the active modules (like the rewrite module) that are currently enabled in Apache.
+#### ⌨️apache2ctl -M 📋→ This lists all the active modules (like the rewrite module) that are currently enabled in Apache.
 
 ***
 
@@ -97,7 +97,7 @@ Finally, I enabled the rewrite module and restarted Apache to apply the change. 
 <img src="https://i.imgur.com/RZHIBYG.png" alt="osTicket logo"/>
 </p>
 
-#### sudo tail /var/log/apache2/access.log 👀→ This shows recent access logs, so you can see who is visiting your site.
+#### ⌨️sudo tail /var/log/apache2/access.log 👀→ This shows recent access logs, so you can see who is visiting your site.
 
 ***
 
@@ -105,7 +105,7 @@ Finally, I enabled the rewrite module and restarted Apache to apply the change. 
 <img src="https://i.imgur.com/1U1MKjw.png" alt="osTicket logo"/>
 </p>
 
-#### sudo tail /var/log/apache2/error.log ⚠️→ This shows error logs, which help you troubleshoot any problems Apache has encountered.
+#### ⌨️sudo tail /var/log/apache2/error.log ⚠️→ This shows error logs, which help you troubleshoot any problems Apache has encountered.
 
 ***
 
